@@ -1,5 +1,13 @@
 /* Appointments */
 body {
+	#ga_appointments_calendar {
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+	.ga_monthly_schedule_wrapper {
+		background: none;
+	}
 	.ga_appointments_calendar_header, .ga_monthly_schedule_wrapper table thead, .ga_monthly_schedule_wrapper table thead th {
 		background-color: $secondary !important;
 	}

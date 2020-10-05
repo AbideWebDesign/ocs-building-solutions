@@ -30,13 +30,13 @@ defined( 'ABSPATH' ) || exit;
 			
 			<div class="row justify-content-center justify-content-md-end">
 				
-				<div class="col-12 text-center text-md-right">
+				<div class="col-12 text-center text-lg-right">
 					
 					<ul class="list-inline mb-0">
 						
-						<li class="list-inline-item mr-0"><a href="mailto: info@ocsbuildingsolutions.com">info@ocsbuildingsolutions.com</a></li>
+						<li class="list-inline-item d-none d-md-inline-block mr-md-4 pr-md-4 border-right"><a href="mailto: info@ocsbuildingsolutions.com">info@ocsbuildingsolutions.com</a></li>
 						
-						<li class="list-inline-item d-none d-md-inline-block ml-4 pl-4 border-left"><a href="<?php echo home_url('/quote'); ?>">Contact Us</a></li>
+						<li class="list-inline-item">Call: <a href="tel:<?php the_field('phone', 'options'); ?>"><?php the_field('phone', 'options'); ?></a></li>
 						
 					</ul>
 					
@@ -60,28 +60,22 @@ defined( 'ABSPATH' ) || exit;
 					
 				</div>
 				
-				<div class="col-12 col-md-8 align-self-center mt-4 mt-md-0 ml-auto">
+				<div class="col-12 col-md-8 align-self-center mt-4 mt-md-0 ml-auto d-none d-md-block">
 					
-					<div class="row justify-content-center">
+					<div class="row justify-content-end">
 						
-						<div class="col-8 col-md-6 col-lg-4 order-1 order-md-1 d-none d-md-block">
+						<div class="col-8 col-md-6 col-lg-4">
 							
 							<a href="<?php echo home_url('/schedule'); ?>" class="btn btn-secondary btn-block"><i class="fa fa-calendar mr-1"></i> Schedule</a>
 							
 						</div>
 						
-						<div class="col-md-6 col-lg-4 d-none d-md-block order-md-2">
+						<div class="col-md-6 col-lg-4 d-none d-md-block">
 							
 							<a href="<?php echo home_url('/quote'); ?>" class="btn btn-primary btn-block">Get a Quote</a>
 							
 						</div>
-												
-						<div class="col-md-12 col-lg-4 text-center text-md-right align-self-center order-0 order-md-0 mb-md-3 mb-0 mb-xl-0 d-none d-md-block ">
-							
-							<p class="text-lg text-primary mb-0"><strong><a href="tel:<?php the_field('phone', 'options'); ?>"><?php the_field('phone', 'options'); ?></a></strong></p>
-							
-						</div>
-						
+																		
 					</div>
 					
 				</div>

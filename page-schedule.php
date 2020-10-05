@@ -26,7 +26,7 @@ get_header('simple');
 			
 			<div class="row justify-content-between">
 				
-				<div class="col-md-6">
+				<div class="col-md-12">
 										
 					<h2 class="text-white">Schedule your Cleaning Service</h2>
 					
