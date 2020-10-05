@@ -1,0 +1,31 @@
+$orange:	#F0612C;
+$gray:		#58585B;
+$light:		#E4E4E4;
+$dark:		#58585B;
+$primary: 	$orange;
+$secondary:	$gray;
+
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-family-serif: 'Zilla Slab', serif;
+$headings-font-family: $font-family-serif;
+
+$font-size-base: 1.1rem;
+$font-size-xs: .94rem;
+$font-size-sm: 1rem;
+$font-size-lg: 1.25rem;
+$font-weight-normal: 300;
+
+$headings-font-weight: 700;
+$h1-font-size: 54px;
+$h1-font-weight: 700;
+$h2-font-size: 46px;
+$h1-line-height: 1.2;
+$h3-font-size: 36px;
+$h5-font-size: 18px;
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,	
+	lg: 960px,
+	xl: 1300px
+);

@@ -1,0 +1,159 @@
+*:focus {
+	outline: none;
+}
+body a {
+	transition: all .2s ease-in-out;
+}
+button, .btn {
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+}
+h1 {
+	line-height: 1.1em;
+	
+	@include media-breakpoint-down(sm) {
+		font-size: 40px;
+		text-align: center;
+	}
+}
+.text-sm, .text-sm-alt, .text-sm p, .text-sm-alt p {
+	font-size: $font-size-sm;
+}
+.text-xs, .text-xs p {
+	font-size: $font-size-xs;
+}
+.text-lg {
+	font-size: $font-size-lg;
+	line-height: 1.3em;
+}
+.btn {
+	padding: .9rem 2.5rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: .9rem;
+}
+.btn-primary {
+	color: white !important;
+}
+.btn-white {
+	@extend .btn-light;
+}
+.wrapper {
+	padding: 100px 0 !important;
+}
+.wrapper-sm {
+	padding: 50px 0 !important;
+}
+.wrapper-sm-bottom {
+	padding: 100px 0 50px 0 !important;
+}
+.wrapper-sm-top {
+	padding: 50px 0 100px 0 !important;
+}
+@include media-breakpoint-down(md) {
+	.wrapper {
+		padding: 50px 0 !important;
+	}
+	.wrapper-sm {
+		padding: 25px 0 !important;
+	}
+	.wrapper-sm-bottom {
+		padding: 50px 0 25px 0 !important;
+	}
+	.wrapper-sm-top {
+		padding: 25px 0 50px 0 !important;
+	}
+}
+.bg-primary {
+	&, p, a {
+		color: white;
+	}
+}
+#wrapper-navbar-top {
+	font-weight: bold;
+	a {
+		font-size: $font-size-xs;
+		color: white;
+		
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+#wrapper-logo {
+	img {
+		max-width: 160px;
+		
+		@include media-breakpoint-down(xs) {
+			max-width: 200px;
+		}
+	}
+}
+#wrapper-navbar {
+	a:hover {
+		text-decoration: none;
+	}
+}
+#wrapper-hero {
+	.border-bottom {
+		border-bottom-color: $gray-500 !important;
+	}
+	.hero-cta-text {
+		text-align: right;
+		margin-bottom: 0;
+	}
+}
+.wrapper-hero-img {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+	@include media-breakpoint-down(sm) {
+		min-height: 300px;
+	}
+}
+.reviewer-name {
+	min-width: 155px;
+}
+.review {
+	background-color: $dark;
+	color: white;
+}
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid $dark; 
+}
+.box {
+	border: 1px solid $gray-400;
+	padding: 2.5em;
+	text-align: center;
+	
+	.box-icon {
+		margin-bottom: 1.4em;
+		
+		img {
+			height: 80px;
+			width: auto;
+		}
+	}
+	.box-title {
+		color: $primary;
+		font-family: $font-family-serif; 
+		font-size: $h3-font-size;
+		margin-bottom: 0em;
+	}
+	.box-footer {
+		p {
+			font-size: $font-size-xs;
+			margin-bottom: 0;
+		}
+		a {
+			color: $body-color;
+		}
+	}
+}
