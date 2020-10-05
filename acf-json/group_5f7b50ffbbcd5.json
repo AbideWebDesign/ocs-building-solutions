@@ -3,6 +3,63 @@
     "title": "Quote",
     "fields": [
         {
+            "key": "field_5f7b6403f9bf1",
+            "label": "Quote Page Title",
+            "name": "quote_page_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f7b64e678f27",
+            "label": "Quote Form Title",
+            "name": "quote_form_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f7b64eb78f28",
+            "label": "Quote Form Text",
+            "name": "quote_form_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5f7b510c63f8d",
             "label": "Quote Sidebar Title",
             "name": "quote_sidebar_title",
@@ -129,5 +186,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1601917459
+    "modified": 1601922294
 }

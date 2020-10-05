@@ -20,7 +20,7 @@ get_header('simple');
 			
 			<div class="row">
 				
-				<div class="col"><div class="text-sm mb-3 text-white"><strong>Free Cleaning Quote</strong></div></div>
+				<div class="col"><div class="text-sm mb-3 text-white"><strong>Free Quote</strong></div></div>
 				
 			</div>
 			
@@ -28,7 +28,7 @@ get_header('simple');
 				
 				<div class="col-md-7 col-xl-6">
 										
-					<h2 class="text-white">Request a free commercial cleaning quote</h2>
+					<h2 class="text-white"><?php the_field('quote_page_title'); ?></h2>
 					
 				</div>
 				
@@ -66,9 +66,9 @@ get_header('simple');
 				
 				<div class="col-lg-7 col-xl-6">
 					
-					<h3 class="mb-3">Get a Free Cleaning Quote</h3>
+					<h3 class="mb-3"><?php the_field('quote_form_title'); ?></h3>
 					
-					<p class="text-sm mb-4">Enter your information below to schedule a free cleaning quote with an <strong class="text-primary">OCS Building Solutions</strong> Pro!</p>
+					<p class="text-sm mb-4"></p><?php the_field('quote_form_text'); ?></p>
 					
 					<div class="bg-light p-3 p-md-4">
 												

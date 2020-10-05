@@ -28,7 +28,7 @@ get_header('simple');
 				
 				<div class="col-md-12">
 										
-					<h2 class="text-white">Schedule your Cleaning Service</h2>
+					<h2 class="text-white"><?php the_field('schedule_page_title'); ?></h2>
 					
 				</div>
 				
@@ -48,7 +48,7 @@ get_header('simple');
 					
 					<div class="bg-light p-5">
 						
-						<h3 class="mb-5 text-center">Get Your Cleaning Job on Our Calendar</h3>
+						<h3 class="mb-5 text-center"><?php the_field('schedule_form_title'); ?></h3>
 						
 						<?php echo do_shortcode( '[gravityform id="2" title="false" description="false" ajax="true" tabindex="49"]' ); ?>
 						
