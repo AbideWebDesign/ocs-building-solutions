@@ -36,7 +36,7 @@ defined( 'ABSPATH' ) || exit;
 					
 					<div class="col-6 col-md-6 col-lg-4 d-none d-md-block order-md-2">
 						
-						<a rhef="<?php echo home_url('quote'); ?>" class="btn btn-primary btn-block">Get a Quote</a>
+						<a rhef="<?php echo home_url('/quote'); ?>" class="btn btn-primary btn-block">Get a Quote</a>
 						
 					</div>
 											
