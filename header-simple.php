@@ -33,9 +33,9 @@ defined( 'ABSPATH' ) || exit;
 					
 					<ul class="list-inline mb-0">
 						
-						<li class="list-inline-item mr-0"><a href="mailto: info@ocsbuildingsolutions.com">info@ocsbuildingsolutions.com</a></li>
+						<li class="list-inline-item d-none d-md-inline-block mr-md-4 pr-md-4 border-right"><a href="mailto: info@ocsbuildingsolutions.com">info@ocsbuildingsolutions.com</a></li>
 						
-						<li class="list-inline-item d-none d-md-inline-block ml-4 pl-4 border-left"><a href="<?php echo home_url('/contact'); ?>">Contact Us</a></li>
+						<li class="list-inline-item">Call: <a href="tel:<?php the_field('phone', 'options'); ?>"><?php the_field('phone', 'options'); ?></a></li>
 						
 					</ul>
 					
@@ -57,12 +57,6 @@ defined( 'ABSPATH' ) || exit;
 					
 					<a id="wrapper-logo" href="<?php echo home_url(); ?>"><?php echo wp_get_attachment_image( get_field('logo', 'options'), 'Full', false, array('class'=>'img-fluid') ); ?></a>
 					
-				</div>
-				
-				<div class="col-12 col-md-auto align-self-center text-center text-md-right mt-3 mt-md-0">
-					
-					<p class="text-lg text-primary mb-0"><strong><a href="tel:<?php the_field('phone', 'options'); ?>"><?php the_field('phone', 'options'); ?></a></strong></p>
-									
 				</div>
 				
 			</div>
