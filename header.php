@@ -19,6 +19,16 @@ defined( 'ABSPATH' ) || exit;
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="shortcut icon" type="image/x-icon" href="<?php the_field('favicon', 'options'); ?>">
 	<?php wp_head(); ?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179646403-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-179646403-1');
+	</script>
+
 </head>
 
 <body <?php body_class(); ?>>
