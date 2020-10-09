@@ -60,7 +60,7 @@ get_header();
 							
 							<div class="col-9 col-md-5 col-lg-6 align-self-center">
 							
-								<a href="<?php echo home_url('/estimate'); ?>" class="btn btn-secondary btn-block"><i class="fa fa-calendar mr-2"></i> <?php the_field('schedule_button_label'); ?></a>
+								<a href="<?php echo home_url('/schedule'); ?>" class="btn btn-secondary btn-block"><i class="fa fa-calendar mr-2"></i> <?php the_field('schedule_button_label'); ?></a>
 								
 							</div>
 							
