@@ -20,7 +20,13 @@ defined( 'ABSPATH' ) || exit;
 			
 			<div class="col-12 col-md-3 text-center text-md-left align-self-center">
 				
-				<a id="wrapper-logo" href="<?php echo home_url(); ?>"><?php echo wp_get_attachment_image( get_field('logo', 'options'), 'Full', false, array('class'=>'img-fluid') ); ?></a>
+				<div class="mb-3">
+					
+					<a id="wrapper-logo" href="<?php echo home_url(); ?>"><?php echo wp_get_attachment_image( get_field('logo', 'options'), 'Full', false, array('class'=>'img-fluid') ); ?></a>
+					
+				</div>
+				
+				<p class="text-sm mb-0"><?php the_field('address', 'options'); ?><br><?php the_field('address_2', 'options'); ?></p>
 				
 			</div>
 			
